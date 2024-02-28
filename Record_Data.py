@@ -22,4 +22,3 @@ with open("liftoff.bin", "ab") as file:  # Use "ab" mode to write binary data
             # Write the binary message to the file
             file.write(udp_message + b"\n")  # Add a newline character after each message
             last_message = udp_message  # Update the last received message
-
