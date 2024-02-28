@@ -4,17 +4,6 @@ import struct
 UDP_IP = "127.0.0.1"
 UDP_PORT = 9001
 
-format_strings = [
-    'f',  # Timestamp
-    '3f', # Position (3 floats)
-    '4f', # Attitude (4 floats)
-    '3f', # Gyro (3 floats)
-    '4f', # Input (4 floats)
-    '2f', # Battery (2 floats)
-]
-
-data = []
-offset = 0
 
 sock = socket.socket(socket.AF_INET,
                      socket.SOCK_DGRAM)
