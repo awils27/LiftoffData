@@ -1,4 +1,5 @@
 import socket
+import gzip
 
 UDP_IP = "127.0.0.1"
 UDP_PORT = 9001
